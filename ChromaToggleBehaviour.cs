@@ -40,6 +40,9 @@ namespace SaberToggle {
         }
 
         private void Update() {
+            if (Input.GetKeyDown(KeyCode.KeypadMultiply)) {
+                Plugin.WriteConsoleMessage("Toggle: "+toggleValid);
+            }
             if (Input.GetKeyDown(GetKeyCode(true)) && toggleValid) {
                 if (Plugin.permanentToggle) ToggleSabers(0);
                 else ToggleSabers(0, true);
@@ -97,7 +100,9 @@ namespace SaberToggle {
 
         //private void SceneManagerOnActiveSceneChanged(Scene from, Scene scene) {
         private void SceneManager_sceneLoaded(Scene scene, LoadSceneMode arg1) {
-            this.StartCoroutine(DelayedSceneStart(scene));
+            if (Plugin.isTargetSceneIndex(scene.buildIndex)) {
+                this.StartCoroutine(DelayedSceneStart(scene));
+            }
         }
 
         IEnumerator DelayedSceneStart(Scene scene) {
@@ -246,7 +251,7 @@ namespace SaberToggle {
                             }
                         }
 
-                        ApplyDebugObjects(_sabers[0].gameObject);
+                        //ApplyDebugObjects(_sabers[0].gameObject);
                     }
                 } else {
                     Plugin.WriteConsoleMessage("Loaded scene "+scene.buildIndex);
