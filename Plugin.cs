@@ -31,9 +31,10 @@ namespace SaberToggle {
         //With this enabled, you can switch the colour of your sabers by holding the key.
         public static bool enableSaberToggle = false;
 
-        //Alternate toggle makes your left saber default to blue, and toggle red while holding the trigger.
-        //This makes both sabers act the same.  This is generally easier to comprehend, and easier to play.
-        public static bool alternateToggle = true;
+        //With Saber Toggle enabled, both sabers are blue by default and holding the trigger makes them turn red.
+        //If alternate toggle is enabled, your left hand will default to red, and holding the trigger will make it blue.
+        //This makes it more akin to regular gameplay while not toggling, but the actual toggle feature becomes much harder to use.
+        public static bool alternateToggle = false;
 
         //If enabled, pressing the trigger will permanently toggle the saber, and releasing the trigger will do nothing.
         //This means you must press the trigger a second time to return the saber back to its original state.

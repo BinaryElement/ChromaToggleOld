@@ -200,7 +200,7 @@ namespace SaberToggle {
                                     saberCopy.SetActive(false);
                                     _altSabers[i == 0 ? 1 : 0] = newSaber;
                                 }
-                                if (Plugin.alternateToggle) {
+                                if (!Plugin.alternateToggle) {
                                     Plugin.WriteConsoleMessage("Alternate Toggle enabled");
                                     Saber temp = _altSabers[1];
                                     _altSabers[1] = _sabers[1];
