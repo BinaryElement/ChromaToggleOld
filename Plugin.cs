@@ -64,6 +64,8 @@ namespace SaberToggle {
 
         public static bool enableMantisStyle = false;
 
+        public static float darthMantisOffset = 0.25f;
+
         //This makes it use the oculus X/Y buttons instead of the trigger
         public static bool useOculusButton = false;
 
@@ -143,6 +145,7 @@ namespace SaberToggle {
             enableDarthMaul = ModPrefs.GetBool("ChromaToggle", "enableDarthMaul", false);
             doubleDarthMaul = ModPrefs.GetBool("ChromaToggle", "doubleDarthMaul", false);
             enableMantisStyle = ModPrefs.GetBool("ChromaToggle", "enableMantisStyle", false);
+            darthMantisOffset = ModPrefs.GetFloat("ChromaToggle", "darthMantisOffset", 0.25f);
             useOculusButton = ModPrefs.GetBool("ChromaToggle", "useOculusButton", false);
         }
 
@@ -159,6 +162,7 @@ namespace SaberToggle {
             ModPrefs.SetBool("ChromaToggle", "enableDarthMaul", enableDarthMaul);
             ModPrefs.SetBool("ChromaToggle", "doubleDarthMaul", doubleDarthMaul);
             ModPrefs.SetBool("ChromaToggle", "enableMantisStyle", enableMantisStyle);
+            ModPrefs.SetFloat("ChromaToggle", "darthMantisOffset", darthMantisOffset);
             ModPrefs.SetBool("ChromaToggle", "useOculusButton", useOculusButton);
         }
 

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,13 +23,15 @@ namespace SaberToggle {
         //private MainGameSceneSetupData mgData = null;
 
         private void Awake() {
-            SceneManager.activeSceneChanged += SceneManagerOnActiveSceneChanged;
+            //SceneManager.activeSceneChanged += SceneManagerOnActiveSceneChanged;
+            SceneManager.sceneLoaded += SceneManager_sceneLoaded;
             DontDestroyOnLoad(gameObject);
             Console.WriteLine("Saber Toggle loaded");
         }
 
         private void OnDestroy() {
-            SceneManager.activeSceneChanged -= SceneManagerOnActiveSceneChanged;
+            //SceneManager.activeSceneChanged -= SceneManagerOnActiveSceneChanged;
+            SceneManager.sceneLoaded -= SceneManager_sceneLoaded;
         }
 
         private KeyCode GetKeyCode(bool leftController) {
@@ -92,7 +95,27 @@ namespace SaberToggle {
             ReflectionUtil.SetPrivateField(_playerController, "_leftSaber", _sabers[1].gameObject.activeSelf ? _sabers[1] : _altSabers[1]);
         }
 
-        private void SceneManagerOnActiveSceneChanged(Scene from, Scene scene) {
+        //private void SceneManagerOnActiveSceneChanged(Scene from, Scene scene) {
+        private void SceneManager_sceneLoaded(Scene scene, LoadSceneMode arg1) {
+            this.StartCoroutine(DelayedSceneStart(scene));
+        }
+
+        IEnumerator DelayedSceneStart(Scene scene) {
+            MainGameSceneSetup mainGameSceneSetup = null;
+            int i = 0;
+            while (i < 20) {
+                yield return new WaitForSeconds(0.1f);
+                if (mainGameSceneSetup == null) {
+                    mainGameSceneSetup = Resources.FindObjectsOfTypeAll<MainGameSceneSetup>().FirstOrDefault();
+                }
+                if (mainGameSceneSetup != null) {
+                    MGSFound(scene, mainGameSceneSetup);
+                    yield break;
+                }
+            }
+        }
+
+        private void MGSFound(Scene scene, MainGameSceneSetup mainGameSceneSetup){
 
             try {
 
@@ -110,7 +133,7 @@ namespace SaberToggle {
                 if (Plugin.isTargetSceneIndex(scene.buildIndex)) {
                     Plugin.WriteConsoleMessage("Scene "+scene.name+" ("+scene.buildIndex+") found");
 
-                    MainGameSceneSetup mainGameSceneSetup = FindObjectOfType<MainGameSceneSetup>();
+                    //MainGameSceneSetup mainGameSceneSetup = FindObjectOfType<MainGameSceneSetup>();
                     if (mainGameSceneSetup == null) {
                         mainGameSceneSetup = Resources.FindObjectsOfTypeAll<MainGameSceneSetup>().FirstOrDefault();
                         if (mainGameSceneSetup == null) {
@@ -204,19 +227,26 @@ namespace SaberToggle {
                             _altSabers[1].gameObject.SetActive(Plugin.doubleDarthMaul);
                             if (Plugin.doubleDarthMaul) Plugin.WriteConsoleMessage("Double maul is a go!");
                             for (int i = 0; i < _altSabers.Length; i++) {
-                                _altSabers[i].transform.Translate(_altSabers[i].transform.forward * -0.25f);
+                                //_altSabers[i].transform.Translate(_altSabers[i].transform.forward * Plugin.darthMantisOffset);
+                                _altSabers[i].transform.localPosition = _altSabers[i].transform.localPosition + new Vector3(0, 0, -Plugin.darthMantisOffset);
                             }
                         }
 
                         if (Plugin.enableMantisStyle) {
                             Plugin.WriteConsoleMessage("MANTIS MODE");
                             for (int i = 0; i < _sabers.Length; i++) {
-                                _sabers[i].transform.Translate(_sabers[i].transform.forward * -0.15f);
+                                //_sabers[i].transform.Translate(_sabers[i].transform.forward * (Plugin.darthMantisOffset / 2));
+                                _sabers[i].transform.localPosition = _sabers[i].transform.localPosition + new Vector3(0, 0, -Plugin.darthMantisOffset);
+                                _sabers[i].transform.Rotate(new Vector3(180, 0, 0));
                             }
                             for (int i = 0; i < _altSabers.Length; i++) {
-                                _altSabers[i].transform.Translate(_altSabers[i].transform.forward * -0.15f);
+                                //_altSabers[i].transform.Translate(_altSabers[i].transform.forward * (Plugin.darthMantisOffset / 2));
+                                _altSabers[i].transform.localPosition = _altSabers[i].transform.localPosition + new Vector3(0, 0, -Plugin.darthMantisOffset);
+                                _altSabers[i].transform.Rotate(new Vector3(180, 0, 0));
                             }
                         }
+
+                        ApplyDebugObjects(_sabers[0].gameObject);
                     }
                 } else {
                     Plugin.WriteConsoleMessage("Loaded scene "+scene.buildIndex);
@@ -226,6 +256,31 @@ namespace SaberToggle {
                 Console.WriteLine(ex.Message + "\n" + ex.StackTrace);
             }
 
+        }
+
+        private void ApplyDebugObjects(GameObject host) {
+            float globalScale = 0.05f;
+
+            GameObject forward = GameObject.CreatePrimitive(PrimitiveType.Cube);
+            forward.transform.SetParent(host.transform);
+            forward.transform.localPosition = new Vector3(0, 0, 1) * globalScale * 2;
+            forward.transform.localRotation = Quaternion.identity;
+            forward.transform.localScale = new Vector3(globalScale / forward.transform.lossyScale.x, globalScale / forward.transform.lossyScale.y, globalScale / forward.transform.lossyScale.z);
+            forward.GetComponent<Renderer>().material.color = Color.blue;
+
+            GameObject right = GameObject.CreatePrimitive(PrimitiveType.Cube);
+            right.transform.SetParent(host.transform);
+            right.transform.localPosition = new Vector3(1, 0, 0) * globalScale * 2;
+            right.transform.localRotation = Quaternion.identity;
+            right.transform.localScale = new Vector3(globalScale / right.transform.lossyScale.x, globalScale / right.transform.lossyScale.y, globalScale / right.transform.lossyScale.z);
+            forward.GetComponent<Renderer>().material.color = Color.red;
+
+            GameObject up = GameObject.CreatePrimitive(PrimitiveType.Cube);
+            up.transform.SetParent(host.transform);
+            up.transform.localPosition = new Vector3(0, 1, 0) * globalScale * 2;
+            up.transform.localRotation = Quaternion.identity;
+            up.transform.localScale = new Vector3(globalScale / up.transform.lossyScale.x, globalScale / up.transform.lossyScale.y, globalScale / up.transform.lossyScale.z);
+            forward.GetComponent<Renderer>().material.color = Color.green;
         }
 
         private void MainGameSceneSetupDataOnDidFinishEvent(MainGameSceneSetupData arg1, LevelCompletionResults results) {
