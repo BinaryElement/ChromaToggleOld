@@ -3,7 +3,7 @@
 
 This is an early version of ChromaToggle, which features many features, not bugs, stop asking questions.
 
-This plugin is only active in Party Mode.  Download it from the [releases page](https://github.com/BinaryElement/ChromaToggle/releases)
+This plugin is only active in Party Mode.  Download it from the [releases page.](https://github.com/BinaryElement/ChromaToggle/releases)
 
 ## Settings
 
