@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Text;
 using UnityEngine;
 
-namespace SaberToggle {
+namespace ChromaToggle {
     public static class ReflectionUtil {
         public static void SetPrivateField(object obj, string fieldName, object value) {
             obj.GetType().GetField(fieldName, BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic).SetValue(obj, value);
