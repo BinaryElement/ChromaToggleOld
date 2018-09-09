@@ -109,8 +109,8 @@ Randomly applies the mirrorDirection effect to select blocks.
 Randomly applies the mirrorPosition effect to select blocks.
 
 ### customSabersCompatibilityWorkaround (Time in seconds)
-**Default: 0.1**
-This delays the full activation of ChromaToggle in order to ensure custom sabers work properly.  The number you enter is the time in seconds for the plugin to delay itself.  If you're experiencing problems with getting ChromaToggle to work properly, set this to zero.  If ChromaToggle works properly, but custom sabers do not, increase this number (0.25, 0.5, and 1 are good numbers).
+**Default: 0.25**
+This delays the full activation of ChromaToggle in order to ensure custom sabers work properly.  The number you enter is the time in seconds for the plugin to delay itself.  If you do not use custom sabers, or you're experiencing problems with getting ChromaToggle to work properly, set this to zero for maximum reliability.  If ChromaToggle works properly, but custom sabers do not, increase this number (0.25, 0.5, and 1 are good numbers).
 
 ### masterVolume (0-1)
 **Default: 1**
