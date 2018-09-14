@@ -20,6 +20,65 @@ You can also reload by pressing the menu button on the right vive controller whi
 1 = true
 0 = false
 
+### GameMode (0-8)
+**Default: 0** - None
+Sets your custom ChromaToggle game mode to be played!
+**0 = None/Party**
+* Description:
+  * Standard gameplay, while in Solo Standard.
+  * Standard gameplay by default while in Party Mode
+  * Enables use of individual or multiple features from main modes in any configuration the user desires
+  * No leaderboards
+**1 = ChromaToggle**
+* Leaderboard Enabled: **FALSE**
+* Description:
+  * Two Colour Game Mode.
+  * Map is colour randomized (not applicable to ChromaToggle tailored maps)
+  * Player can hold the trigger to change the colour of their sabers between blue/red.
+**2 = Forced Single Saber**
+* Leaderboard Enabled: **TRUE**
+* Description:
+  * One Colur Game Mode
+  * Turns any two handed map into a one handed map.  Simple!
+  * Disables left saber (or right if mirror).
+**3 = Random Standard**
+* Leaderboard Enabled: **FALSE**
+* Description:
+  * Two Colour Game Mode.
+  * Colour randomization feature of no-arrows mode is applied.
+  * Maps retain their arrows.  Don't hit yourself.
+**4 = Single Saber ChromaToggle**
+* Leaderboard Enabled: **FALSE**
+* Description:
+  * Two Colour Game Mode.
+  * Combination of ChromaToggle and Forced Single Saber.
+  * Effectively Forced Single Saber but with two colours.  Hold trigger to toggle.
+**5 = GreyToggle**
+* Leaderboard Enabled: **DISABLED**
+* Description:
+  * Three Colour Game Mode.
+  * Map is tailored.
+  * Grey notes will trigger saber colour changes.
+**6 = PentaChrome Toggle** [CBT ONLY]
+* Leaderboard Enabled: **FALSE**
+* Description:
+  * Five Colour Game Mode.
+  * Map is alt-colour randomized.
+  * Player can hold the trigger to change the colour of their sabers between standard/alt colours.
+  * Grey notes are scattered throughout the map.
+**7 = PentaChrome Maul** [CBT ONLY]
+* Leaderboard Enabled: **FALSE**
+* Description:
+  * Five Colour Game Mode.
+  * Map is alt-colour randomized.
+  * Player is provided two two-coloured Darth Maul sabers, for a total of four active colours.
+  * Grey notes are scattered throughout the map.
+**8 = Nightmare** [DISABLED - NYI]
+* Description:
+  * Future gamemode.
+  * No spoilers!
+  * Extremely difficult.
+
 ### enableSaberToggle (true/false)
 **Default: false**
 The founding feature of ChromaToggle, the feature the plugin's name came from.  When enabled, both sabers will be blue - however, holding the trigger will turn them red!
