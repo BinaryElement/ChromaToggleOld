@@ -9,7 +9,7 @@ IMPORTANT: GameMode is the main method of setting, well, the game mode.  This wo
 If you set GameMode to zero (standard), you can use any configuration of custom settings while in party mode, however ChromaToggle will be completely disabled in Solo Standard.
 
 **Active Leaderboards:**
-* Forced Single Saber
+* None
 
 ## Settings
 
