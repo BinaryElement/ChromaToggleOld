@@ -9,7 +9,7 @@ IMPORTANT: GameMode is the main method of setting, well, the game mode.  This wo
 If you set GameMode to zero (standard), you can use any configuration of custom settings while in party mode, however ChromaToggle will be completely disabled in Solo Standard.
 
 **Active Leaderboards:**
-* None
+* Forced Single Saber
 
 ## Settings
 
@@ -20,9 +20,13 @@ You can also reload by pressing the menu button on the right vive controller whi
 1 = true
 0 = false
 
+**GameMode will handle all the other settings for you.  Other settings are for if you want to make your own custom mode out of sub-features.  If you are playing a GameMode that has leaderboards enabled, you can use it in Solo Standard or Party Mode.  If leaderboards are not enabled, it will only work in Party Mode.**
+
 ### GameMode (0-8)
-**Default: 0** - None
-Sets your custom ChromaToggle game mode to be played!  
+* **Default: 0** - None
+  * Description:
+    * Disables ChromaToggle for Solo Standard
+    * Enables custom Game Modes for Party Mode (by enabling/modifying the other settings).
 
 * **0 = None/Party**
   * Leaderboard Enabled: **N/A**
