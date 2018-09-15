@@ -23,17 +23,13 @@ You can also reload by pressing the menu button on the right vive controller whi
 **GameMode, when set above zero, will handle all the other settings for you.  Other settings are for if you want to make your own custom mode out of sub-features.  If you are playing a GameMode that has leaderboards enabled, you can use it in Solo Standard or Party Mode.  If leaderboards are not enabled, it will only work in Party Mode.**
 
 ### GameMode (0-8)
-* **Default: 0** - None
-  * Description:
-    * Disables ChromaToggle for Solo Standard
-    * Enables custom Game Modes for Party Mode (by enabling/modifying the other settings).
 
 * **0 = None/Party**
   * Leaderboard Enabled: **N/A**
   * Description:
     * Standard gameplay, while in Solo Standard.
     * Standard gameplay by default while in Party Mode
-    * Enables use of individual or multiple features from main modes in any configuration the user desires
+    * Enables use of individual or multiple features from main modes in any configuration the user desires (In Party Mode)
     * No leaderboards  
 * **1 = ChromaToggle**
   * Leaderboard Enabled: **FALSE**
