@@ -63,14 +63,14 @@ You can also reload by pressing the menu button on the right vive controller whi
     * Three Colour Game Mode.
     * Map is tailored.
     * Grey notes will trigger saber colour changes.  
-* **6 = PentaChrome Toggle** [CBT ONLY]
+* **6 = PentaChrome Toggle**
   * Leaderboard Enabled: **FALSE**
   * Description:
     * Five Colour Game Mode.
     * Map is alt-colour randomized.
     * Player can hold the trigger to change the colour of their sabers between standard/alt colours.
     * Grey notes are scattered throughout the map. 
-* **7 = PentaChrome Maul** [CBT ONLY]
+* **7 = PentaChrome Maul**
   * Leaderboard Enabled: **FALSE**
   * Description:
     * Five Colour Game Mode.
@@ -110,7 +110,7 @@ Flips your saber over to a new colour upon hitting a grey block.
 
 
 
-### enableAlternateColours (true/false) [CBT ONLY]
+### enableAlternateColours (true/false)
 **Default: false**
 Required for any fancy three-or-more colour modes.
 
@@ -189,7 +189,7 @@ This feature sets the colour randomization system.  We got a little crazy with t
 
 
 
-### altRandomizationStyle (0, 1, 2, 3) [CBT ONLY]
+### altRandomizationStyle (0, 1, 2, 3)
 **Default: 0**
 This feature sets the colour randomization system for alternate colours (excluding grey).  We got extra crazy with this one!
 0 = None.  Zilch.  Zip.  Nada.
@@ -200,7 +200,7 @@ This feature sets the colour randomization system for alternate colours (excludi
 
 
 
-### randomGreyBlocks (true/false) [CBT ONLY]
+### randomGreyBlocks (true/false)
 **Default: false**
 Adds in grey blocks here and there, to make your life simultaneously easier and harder.
 
@@ -311,7 +311,7 @@ The volume of added sound effects.
 
 
 
-### technicolour (true/false) [CBT ONLY]
+### technicolour (true/false)
 **Default: false**
 VISUAL CHANGE ONLY
 Makes blocks a plethora of random colours, but they will still respect saber colours based on their "true colour".
