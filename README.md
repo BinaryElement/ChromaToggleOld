@@ -1,3 +1,5 @@
+# [JOIN THE DISCORD](https://discord.gg/BBntx2e)
+
 # ChromaToggle v0.4
 ### "Luminous"
 
