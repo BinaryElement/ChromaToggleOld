@@ -24,6 +24,10 @@ You can also reload by pressing the menu button on the right vive controller whi
 
 **GameMode, when set above zero, will handle all the other settings for you.  Other settings are for if you want to make your own custom mode out of sub-features.  If you are playing a GameMode that has leaderboards enabled, you can use it in Solo Standard or Party Mode.  If leaderboards are not enabled, it will only work in Party Mode.**
 
+### isOculus (true/false)
+**Default: false**
+Enables proper Oculus control schemes for toggle gamemodes.
+
 ### GameMode (0-8)
 
 * **0 = None/Party**
@@ -340,10 +344,10 @@ There's even a couple secret features to play with...  They're pretty dumb thoug
 
 
 ### Custom Colour Options (RGBA)  
-**colourA=1,0.5,0.5,1** (Red Blocks) - Base Game Default  
-**colourB=0,0.502,1,1** (Blue Blocks) - Base Game Default  
-**colourAltA=1,0,1,1** (Alt Red Blocks)  
-**colourAltB=0,1,0,1** - (Alt Blue Blocks)  
-**colourNonColoured=1,1,1,1** - (Grey Blocks)  
+**colourA=1;0.5;0.5;1** (Red Blocks) - Base Game Default  
+**colourB=0;0.502;1;1** (Blue Blocks) - Base Game Default  
+**colourAltA=1;0;1;1** (Alt Red Blocks)  
+**colourAltB=0;1;0;1** - (Alt Blue Blocks)  
+**colourNonColoured=1;1;1;1** - (Grey Blocks)  
 Recolour any of the blocks (and your sabers along with them) to whatever you want!  
 Coming soon: recolour lights with these values!
