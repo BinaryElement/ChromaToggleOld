@@ -1,3 +1,5 @@
+# READ EVERYTHING UP UNTIL AND INCLUDING THE GAMEMODE SETTING
+
 # [JOIN THE DISCORD](https://discord.gg/BBntx2e)
 
 # ChromaToggle v0.4
