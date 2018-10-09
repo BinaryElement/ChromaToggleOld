@@ -189,7 +189,7 @@ Turns the entire map into dots.  What do you mean "why wouldn't I just play no-a
 This feature sets the colour randomization system.  We got a little crazy with this one!
 0 = None.  Zilch.  Zip.  Nada.
 1 = Simple.      - The colour randomization feature from no-arrows mode.
-2 = Controlled.  - Same as simple, except for high-intensity sections where the randomization is toned down.
+2 = Controlled.  - Same as simple, except for high-intensity sections where the randomization is toned down. [USED FOR GAMEMODE 1 AND 4]
 3 = Intense.     - Makes literally each block 50/50 chance of being either colour.
 4 = True.        - True as in true random - this is the same as intense, except it will be differently randomized on each playthrough!
 
@@ -199,10 +199,11 @@ This feature sets the colour randomization system.  We got a little crazy with t
 **Default: 0**
 This feature sets the colour randomization system for alternate colours (excluding grey).  We got extra crazy with this one!
 0 = None.  Zilch.  Zip.  Nada.
-1 = Simple.      - Similar randomization as no-arrows mode.
-2 = Controlled.  - Same as simple, except all notes of the same kind on one beat are swapped.  STRONGLY RECOMMENDED OVER SIMPLE.
-3 = Intense.     - Makes literally each block 50/50 chance of being either colour.
-4 = True.        - True as in true random - this is the same as intense, except it will be differently randomized on each playthrough!
+1 = Simple.                - Similar randomization as no-arrows mode.
+2 = Controlled.            - Intelligently divides the map into chunks to switch colours, eradicating isolated alt notes during intense patterns. [USED FOR GAMEMODE 6 AND 7]
+3 = Intense.               - Makes literally each block 50/50 chance of being either colour.
+4 = True.                  - True as in true random - this is the same as intense, except it will be differently randomized on each playthrough!
+4 = Legacy Controlled.     - Same as simple, except all notes of the same kind on one beat are swapped.  STRONGLY RECOMMENDED OVER SIMPLE.
 
 
 
