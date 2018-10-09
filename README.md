@@ -20,8 +20,9 @@ All the settings can be found in the standard ModPrefs ini file.  After changing
 
 You can also reload by pressing the menu button on the right vive controller while in the main menu.
 
-1 = true
-0 = false
+For true/false options, the numbers 1 and 0 will be used.
+*1 = true*  
+*0 = false*  
 
 **GameMode, when set above zero, will handle all the other settings for you.**  Most other settings are for if you want to make your own custom mode out of sub-features.  To do this, set GameMode to zero, and play in party mode.
 
