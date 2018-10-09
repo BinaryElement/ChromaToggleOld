@@ -203,7 +203,7 @@ This feature sets the colour randomization system for alternate colours (excludi
 2 = Controlled.            - Intelligently divides the map into chunks to switch colours, eradicating isolated alt notes during intense patterns. [USED FOR GAMEMODE 6 AND 7]  
 3 = Intense.               - Makes literally each block 50/50 chance of being either colour.  
 4 = True.                  - True as in true random - this is the same as intense, except it will be differently randomized on each playthrough!  
-4 = Legacy Controlled.     - Same as simple, except all notes of the same kind on one beat are swapped.  STRONGLY RECOMMENDED OVER SIMPLE.  
+5 = Legacy Controlled.     - Same as simple, except all notes of the same kind on one beat are swapped.  STRONGLY RECOMMENDED OVER SIMPLE.  
 
 
 
