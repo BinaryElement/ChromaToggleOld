@@ -20,7 +20,7 @@ All the settings can be found in the standard ModPrefs ini file.  After changing
 
 You can also reload by pressing the menu button on the right vive controller while in the main menu.
 
-For true/false options, the numbers 1 and 0 will be used.
+For true/false options, the numbers 1 and 0 will be used.  
 *1 = true*  
 *0 = false*  
 
