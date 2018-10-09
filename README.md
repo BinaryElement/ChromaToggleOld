@@ -25,9 +25,11 @@ You can also reload by pressing the menu button on the right vive controller whi
 
 **GameMode, when set above zero, will handle all the other settings for you.  Other settings are for if you want to make your own custom mode out of sub-features.  If you are playing a GameMode that has leaderboards enabled, you can use it in Solo Standard or Party Mode.  If leaderboards are not enabled, it will only work in Party Mode.**
 
-### isOculus (true/false)
-**Default: false**
-Enables proper Oculus control schemes for toggle gamemodes.
+### triggerThreshold (0-1, or -1)
+**Default: -1 or 0.8f**
+This changes the control scheme for toggle modes.
+* When set to -1, toggle when occur when "clicking the trigger".  This only works for Vive.
+* When set to a number between 0 (exclusive) and 1 (inclusive), the toggle will occur at that percentage press of the trigger.  For example, 0.8 will make the toggle happen when the trigger is half pressed.
 
 ### GameMode (0-8)
 
