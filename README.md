@@ -25,7 +25,7 @@ You can also reload by pressing the menu button on the right vive controller whi
 
 **GameMode, when set above zero, will handle all the other settings for you.  Other settings are for if you want to make your own custom mode out of sub-features.  If you are playing a GameMode that has leaderboards enabled, you can use it in Solo Standard or Party Mode.  If leaderboards are not enabled, it will only work in Party Mode.**
 
-### triggerThreshold (0-1, or -1)
+### triggerThreshold (0-1, or -1) [IMPORTANT FOR OCULUS USERS]
 **Default: -1 or 0.8f**
 This changes the control scheme for toggle modes.
 * When set to -1, toggle when occur when "clicking the trigger".  This only works for Vive.
