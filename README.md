@@ -9,8 +9,7 @@ This is an even less early version of ChromaToggle.
 
 [Download it from the releases page.](https://github.com/BinaryElement/ChromaToggle/releases)
 
-IMPORTANT: GameMode is the main method of setting, well, the game mode.  This works in Party Mode for all modes, and in Solo Standard for any ChromaToggle custom gamemode that has leaderboards enabled (see below).
-If you set GameMode to zero (standard), you can use any configuration of custom settings while in party mode, however ChromaToggle will be completely disabled in Solo Standard.
+IMPORTANT: GameMode is the main method of setting, well, the game mode.  This now works in any game mode, even no arrows and single saber (assuming the gamemode is applicable).  However, leaderboards will not show or upload for any modes that do not have them enabled.  Below is a list of active leaderboards:
 
 **Active Leaderboards:**
 * Forced Single Saber
