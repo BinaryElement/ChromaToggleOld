@@ -302,15 +302,21 @@ Attempts to prioritize pushing barriers to the sides and shrinking them, keeping
 
 
 
+### globalNoteScale (0.1-3.0)
+**Default: 1.0**
+Multiplies the size of notes by the given number.
+
+
+
+### comboNoteShrink (true/false)
+**Default: false**
+Notes will shrink as you rack up combo.
+
+
+
 ### customSabersCompatibilityWorkaround (Time in seconds)
 **Default: 0.25**
 This delays the full activation of ChromaToggle in order to ensure custom sabers work properly.  The number you enter is the time in seconds for the plugin to delay itself.  If you do not use custom sabers, or you're experiencing problems with getting ChromaToggle to work properly, set this to zero for maximum reliability.  If ChromaToggle works properly, but custom sabers do not, increase this number (0.25, 0.5, and 1 are good numbers).
-
-
-
-### debugMode (true/false)
-**Default: false**
-This will basically be useless to you.
 
 
 
@@ -349,10 +355,22 @@ There's even a couple secret features to play with...  They're pretty dumb thoug
 
 
 ### Custom Colour Options (RGBA)  
-**colourA=1;0;0;1** (Red Blocks) - Base Game Default  
-**colourB=0;0.502;1;1** (Blue Blocks) - Base Game Default  
-**colourAltA=1;0;1;1** (Alt Red Blocks)  
-**colourAltB=0;1;0;1** - (Alt Blue Blocks)  
-**colourNonColoured=1;1;1;1** - (Grey Blocks)  
+**colourA=255;0;0;255** (Red Blocks) - Base Game Default  
+**colourB=0;128;255;255** (Blue Blocks) - Base Game Default  
+**colourAltA=255;0;255;255** (Alt Red Blocks)  
+**colourAltB=0;255;0;255** - (Alt Blue Blocks)  
+**colourNonColoured=255;255;255;255** - (Grey Blocks)  
 Recolour any of the blocks (and your sabers along with them) to whatever you want!  
 Coming soon: recolour lights with these values!
+
+
+
+### partyOnly (true/false)
+**Default: false**
+Forces ChromaToggle not to activate in standard, no arrows, or single saber mode.
+
+
+
+### debugMode (true/false)
+**Default: false**
+This will basically be useless to you.
