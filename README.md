@@ -372,15 +372,15 @@ Forces ChromaToggle not to activate in standard, no arrows, or single saber mode
 
 
 
-### debugMode (true/false)
-**Default: false**
-This will basically be useless to you.
+### debugMode (true/false)  
+**Default: false**  
+This will basically be useless to you.  
 
 
 
 ## Custom Colour Options (RGBA)  
-Change the colour of your sabers and your lights!
-Lights are given a different value for *maximum customization!*  Additionally, the lights in the base game are actually a different value than the saber/block, so to mimic vanilla Beat Saber this was necessary.
+Change the colour of your sabers and your lights!  
+Lights are given a different value for *maximum customization!*  Additionally, the lights in the base game are actually a different value than the saber/block, so to mimic vanilla Beat Saber this was necessary.  
 
 ### Blocks/Sabers (RGBA)
 **colourA=255;0;0;255** (Red Blocks) - Base Game Default  
@@ -388,15 +388,15 @@ Lights are given a different value for *maximum customization!*  Additionally, t
 **colourAltA=255;0;255;255** (Alt Red Blocks)  
 **colourAltB=0;255;0;255** (Alt Blue Blocks)  
 **colourNonColoured=255;255;255;255** - (Grey Blocks)  
-
-### Lighting (RGBA)
-**lightAmbient=0;192;255;255** (The menu lighting and behind-the-player lighting during songs) - Base Game Default
-**lightColourA=255;4;4;255** (Red Lights) - Base Game Default
-**lightColourB=0;192;255;255** (Blue Lights) - Base Game Default
-**lightColourAltA=255;8;255;255** (Alt Red Lights) - Pentachrome Lighting Only
-**lightColourAltB=4;255;4;255** (Alt Blue Lights) - Pentachrome Lighting Only
-**lightColourWhite=255;255;255;255** (White Lights) - Pentachrome Lighting Only
-**lightColourGrey=153;153;153;255** (Half-White Lights) - Pentachrome Lighting Only
-
-### Other (RGBA)
-**laserPointerColour** - Defaults to same colour as *colourA*.  Must be added manually to change separately.
+  
+### Lighting (RGBA)  
+**lightAmbient=0;192;255;255** (The menu lighting and behind-the-player lighting during songs) - Base Game Default  
+**lightColourA=255;4;4;255** (Red Lights) - Base Game Default  
+**lightColourB=0;192;255;255** (Blue Lights) - Base Game Default  
+**lightColourAltA=255;8;255;255** (Alt Red Lights) - Pentachrome Lighting Only  
+**lightColourAltB=4;255;4;255** (Alt Blue Lights) - Pentachrome Lighting Only  
+**lightColourWhite=255;255;255;255** (White Lights) - Pentachrome Lighting Only  
+**lightColourGrey=153;153;153;255** (Half-White Lights) - Pentachrome Lighting Only  
+  
+### Other (RGBA)  
+**laserPointerColour** - Defaults to same colour as *colourA*.  Must be added manually to change separately.  
