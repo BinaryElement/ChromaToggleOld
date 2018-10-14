@@ -3,7 +3,7 @@
 # [JOIN THE DISCORD](https://discord.gg/BBntx2e)
 
 # ChromaToggle v0.4
-### "Luminous"
+### "The Technicolor Phase"
 
 This is an even less early version of ChromaToggle.
 
@@ -124,6 +124,12 @@ Required for any fancy three-or-more colour modes.
 
 
 
+### enableRandomizedAlternateLights (true/false)
+**Default: false**
+This will enable a randomization system for Pentachrome Lighting, *but only for pentachrome gamemodes*.  Additionally, there is currently no check for maps with custom lighting events, so this setting will ruin those maps for you (this will be fixed at a later time).
+
+
+
 ### enableOneColorMode (true/false)
 **Default: false**
 Colour blind?  Doesn't matter anymore!  This forces all blocks to be the same colour (unless stacked with other colour changing features, of course)!  This is especially useful for forcing one saber mode!
@@ -197,7 +203,7 @@ This feature sets the colour randomization system.  We got a little crazy with t
 
 
 
-### altRandomizationStyle (0, 1, 2, 3)
+### randomAltColoursStyle (0, 1, 2, 3)
 **Default: 0**
 This feature sets the colour randomization system for alternate colours (excluding grey).  We got extra crazy with this one!  
 0 = None.  Zilch.  Zip.  Nada.  
@@ -334,8 +340,15 @@ Best used with Monochrome mode.
 
 
 
-### enableHapticsOverride (true/false)
+### baseColourOverrideSaber (true/false)
 **Default: true**
+VISUAL CHANGE ONLY
+When disabled, your sabers will ignore custom colour rules.
+
+
+
+### enableHapticsOverride (true/false)
+**Default: false**
 ChromaToggle takes control over the haptics system.
 Fixes issues with ChromaToggle modes, but may cause problems elsewhere.
 
@@ -354,15 +367,28 @@ There's even a couple secret features to play with...  They're pretty dumb thoug
 
 
 
-### Custom Colour Options (RGBA)  
+## Custom Colour Options (RGBA)  
+Change the colour of your sabers and your lights!
+Lights are given a different value for *maximum customization!*  Additionally, the lights in the base game are actually a different value than the saber/block, so to mimic vanilla Beat Saber this was necessary.
+
+### Blocks/Sabers (RGBA)
 **colourA=255;0;0;255** (Red Blocks) - Base Game Default  
 **colourB=0;128;255;255** (Blue Blocks) - Base Game Default  
 **colourAltA=255;0;255;255** (Alt Red Blocks)  
-**colourAltB=0;255;0;255** - (Alt Blue Blocks)  
+**colourAltB=0;255;0;255** (Alt Blue Blocks)  
 **colourNonColoured=255;255;255;255** - (Grey Blocks)  
-Recolour any of the blocks (and your sabers along with them) to whatever you want!  
-Coming soon: recolour lights with these values!
 
+### Lighting (RGBA)
+**lightAmbient=0;192;255;255** (The menu lighting and behind-the-player lighting during songs) - Base Game Default
+**lightColourA=255;4;4;255** (Red Lights) - Base Game Default
+**lightColourB=0;192;255;255** (Blue Lights) - Base Game Default
+**lightColourAltA=255;8;255;255** (Alt Red Lights) - Pentachrome Lighting Only
+**lightColourAltB=4;255;4;255** (Alt Blue Lights) - Pentachrome Lighting Only
+**lightColourWhite=255;255;255;255** (White Lights) - Pentachrome Lighting Only
+**lightColourGrey=153;153;153;255** (Half-White Lights) - Pentachrome Lighting Only
+
+### Other (RGBA)
+**laserPointerColour** - Defaults to same colour as *colourA*.  Must be added manually to change separately.
 
 
 ### partyOnly (true/false)
