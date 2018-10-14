@@ -366,6 +366,17 @@ How stronk your controller is.
 There's even a couple secret features to play with...  They're pretty dumb though.  Just saying.
 
 
+### partyOnly (true/false)
+**Default: false**
+Forces ChromaToggle not to activate in standard, no arrows, or single saber mode.
+
+
+
+### debugMode (true/false)
+**Default: false**
+This will basically be useless to you.
+
+
 
 ## Custom Colour Options (RGBA)  
 Change the colour of your sabers and your lights!
@@ -389,14 +400,3 @@ Lights are given a different value for *maximum customization!*  Additionally, t
 
 ### Other (RGBA)
 **laserPointerColour** - Defaults to same colour as *colourA*.  Must be added manually to change separately.
-
-
-### partyOnly (true/false)
-**Default: false**
-Forces ChromaToggle not to activate in standard, no arrows, or single saber mode.
-
-
-
-### debugMode (true/false)
-**Default: false**
-This will basically be useless to you.
