@@ -2,7 +2,7 @@
 
 # [JOIN THE DISCORD](https://discord.gg/BBntx2e)
 
-# ChromaToggle v0.4
+# ChromaToggle v0.5
 ### "The Technicolor Phase"
 
 This is an even less early version of ChromaToggle.
