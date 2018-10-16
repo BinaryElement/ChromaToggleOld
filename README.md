@@ -415,11 +415,11 @@ Technicolour palettes use lists of colours.  Colours are declared the same way a
 ### Other (RGBA)  
 **laserPointerColour** - Defaults to same colour as *colourA*.  Must be added manually to change separately.  
 
-## Safety Warning
-Certain features of ChromaToggle have some potentially "health aversive" mechanics, therefore I need you to agree to some kind of "hey I'm not liable" agreement to enable them.  Outlined below is a list of features requiring safety warning, and why they require this warning.
+## Safety Warning  
+Certain features of ChromaToggle have some potentially "health aversive" mechanics, therefore I need you to agree to some kind of "hey I'm not liable" agreement to enable them.  Outlined below is a list of features requiring safety warning, and why they require this warning.  
 
-**Nightmare** - Flashing lights are involved, and static lights cannot prevent them.  Therefore an epilepsy warning is required.  Don't play Nightmare if you have epilepsy.  There.  You have been warned.
-**Breaking Reality** - This one is hard to explain, but if you are even a little bit prone to VR sickness, *do not break reality*.  Each eye will see different things, and it is *extremely disorienting*.
+**Nightmare** - Flashing lights are involved, and static lights cannot prevent them.  Therefore an epilepsy warning is required.  Don't play Nightmare if you have epilepsy.  There.  You have been warned.  
+**Breaking Reality** - This one is hard to explain, but if you are even a little bit prone to VR sickness, *do not break reality*.  Each eye will see different things, and it is *extremely disorienting*.  
 
-There.  You have now read the safety warnings.  I hope you're happy.  You enable the modes outlined above, create a *IDoReadSafetyWarnings=* option in the ModPrefs.ini file, under the [ChromaToggle] section, and set the right side of the equals sign to *ISwearIReadIt*.
-I swear to god if you just added that option without reading it, the value, or the safety warning, I will come to your house and I will stab you in technicolour. 
+There.  You have now read the safety warnings.  I hope you're happy.  You enable the modes outlined above, create a *IDoReadSafetyWarnings=* option in the ModPrefs.ini file, under the [ChromaToggle] section, and set the right side of the equals sign to *ISwearIReadIt*.  
+I swear to god if you just added that option without reading it, the value, or the safety warning, I will come to your house and I will stab you in technicolour.   
