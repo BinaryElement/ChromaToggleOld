@@ -26,12 +26,14 @@ For true/false options, the numbers 1 and 0 will be used.
 
 **GameMode, when set above zero, will handle all the other settings for you.**  Most other settings are for if you want to make your own custom mode out of sub-features.  To do this, set GameMode to zero, and play in party mode.
 
+**triggerThreshold is now changed in-game via the Gameplay Options menu**
 ### triggerThreshold (0-1, or -1) [IMPORTANT FOR OCULUS USERS]  
 **Default: -1 or 0.8f**  
 This changes the control scheme for toggle modes.  
 * When set to -1, toggle when occur when "clicking the trigger".  This only works for Vive.  
 * When set to a number between 0 (exclusive) and 1 (inclusive), the toggle will occur at that percentage press of the trigger.  For example, 0.8 will make the toggle happen when the trigger is half pressed.
 
+**GameMode is now changed in-game via the Gameplay Options menu**
 ### GameMode (0-8)  
 
 * **0 = None/Party**
@@ -314,6 +316,12 @@ Multiplies the size of notes by the given number.
 
 
 
+### comboBasedMultiplier (true/false)  [NOT YET IMPLEMENTED]
+**Default: false**  
+Changes the multiplier system to be more focused on getting full combos.
+
+
+
 ### comboNoteShrink (true/false)  
 **Default: false**  
 Notes will shrink as you rack up combo.  
@@ -332,11 +340,11 @@ The volume of added sound effects.
 
 
 
-### technicolour (true/false)  
-**Default: false**  
+**technicolour is now changed in-game via the Gameplay Options menu**
+### technicolour (LIGHTS, BLOCKS, SABERS, OR ANY COMBINATION OF)  
+**Default: OFF**  
 VISUAL CHANGE ONLY  
-Makes blocks a plethora of random colours, but they will still respect saber colours based on their "true colour".  
-Best used with Monochrome mode.  
+Makes blocks, lights, sabers, or any chosen combination of the three a plethora of random colours, but they will still respect saber colours based on their "true colour".  Randomized colours will be selected from the two colour palettes (red turns into a colour from technicolourA, blue turns into a colour from technicolourB).  The default palettes are warm for A and cold for B.
 
 
 
@@ -347,6 +355,7 @@ When disabled, your sabers will ignore custom colour rules.
 
 
 
+**enableHapticsOverride is now changed in-game via the Gameplay Options menu**
 ### enableHapticsOverride (true/false)  
 **Default: false**  
 ChromaToggle takes control over the haptics system.  
@@ -397,6 +406,20 @@ Lights are given a different value for *maximum customization!*  Additionally, t
 **lightColourAltB=4;255;4;255** (Alt Blue Lights) - Pentachrome Lighting Only  
 **lightColourWhite=255;255;255;255** (White Lights) - Pentachrome Lighting Only  
 **lightColourGrey=153;153;153;255** (Half-White Lights) - Pentachrome Lighting Only  
+
+### Technicolour (RGBA-RGBA-RGBA-RGBA...)
+Technicolour palettes use lists of colours.  Colours are declared the same way as above, however you can add multiple colours to one line by separating them with a dash (-).  Default technicolour lists are warm for A (red) and cold for B (blue).
+**technicolourA** (Default 255;0;0;255-255;0;255;255-255;153;0;255-255;0;102;255)
+**technicolourB** (Default 0;128;255;255-0;255;0;255-0;0;255;255-0;255;204;255)
   
 ### Other (RGBA)  
 **laserPointerColour** - Defaults to same colour as *colourA*.  Must be added manually to change separately.  
+
+## Safety Warning
+Certain features of ChromaToggle have some potentially "health aversive" mechanics, therefore I need you to agree to some kind of "hey I'm not liable" agreement to enable them.  Outlined below is a list of features requiring safety warning, and why they require this warning.
+
+**Nightmare** - Flashing lights are involved, and static lights cannot prevent them.  Therefore an epilepsy warning is required.  Don't play Nightmare if you have epilepsy.  There.  You have been warned.
+**Breaking Reality** - This one is hard to explain, but if you are even a little bit prone to VR sickness, *do not break reality*.  Each eye will see different things, and it is *extremely disorienting*.
+
+There.  You have now read the safety warnings.  I hope you're happy.  You enable the modes outlined above, create a *IDoReadSafetyWarnings=* option in the ModPrefs.ini file, and set the right side of the equals sign to *ISwearIReadIt*.
+I swear to god if you just added that option without reading it, the value, or the safety warning, I will come to your house and I will stab you in technicolour. 
