@@ -2,6 +2,14 @@
 
 # [JOIN THE DISCORD](https://discord.gg/BBntx2e)
 
+# Compatibility
+ChromaToggle is not compatible with the following plugins:
+* Hidden (HD)
+* Custom Colours - ChromaToggle does everything CC does and better anyway
+* SimplestRainbowMod - Again, ChromaToggle can do everything it does anyway
+* DarthMaul - ChromaToggle can give you TWO darth mauls!
+  * DarthMaul is technically compatible but it will make your gameplay options menu weird
+
 # ChromaToggle v0.5
 ### "The Technicolor Phase"
 
