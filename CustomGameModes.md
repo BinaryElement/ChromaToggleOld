@@ -172,7 +172,7 @@ Below is the list of possible settings for game modes:
 * Powerup
   * Multiple entries allowed
   * Defines the list of possibly obtainable powerups
-  * See [Powerups](https://github.com/BinaryElement/ChromaToggle/edit/master/Powerups.md)
+  * See [Powerups](https://github.com/BinaryElement/ChromaToggle/blob/master/Powerups.md)
 
 ## Special Section
 ![Special Section](https://i.imgur.com/M7Qy9x0.png)
