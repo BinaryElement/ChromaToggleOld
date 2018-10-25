@@ -1,7 +1,7 @@
 # ChromaToggle v0.6
 ### "The Customization Sensation"
 
-[![LaLaLa](https://im5.ezgif.com/tmp/ezgif-5-2330eec691c3.gif)](https://streamable.com/7ojl1)
+[![LaLaLa](https://i.imgur.com/mIrrf39.png)](https://streamable.com/7ojl1)
 
 Here at ChromaToggle® we value your eye-cone-thingies.  
 A recent trend of duochromitis has plagued the VR community these last few months, and we've decided to balance the playing field.  
