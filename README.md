@@ -32,7 +32,9 @@ ChromaToggle is not compatible with the following plugins:
   * ChromaToggle does everything CC does and better anyway
 * SimplestRainbowMod 
   * Soft Compatibility Issue - game still works, but doesn't colourize as intended.
-  * Again, ChromaToggle can do everything it does anyway
+  * ChromaToggle has a better version of rainbow mode anyway
+    * Uses palettes to stay true to cold/warm, so you can still identify sides.
+    * Can apply rainbowism to lights, sabers, blocks, and barriers.
 * DarthMaul - ChromaToggle can give you TWO darth mauls!
   * Moderate Compatibility Issue - game still works, but the side menu (with no fail option etc) breaks.
   * DarthMaul plugin doesn't use the most recent GameplayOptionsUI API
