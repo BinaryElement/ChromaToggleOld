@@ -79,36 +79,44 @@ ChromaToggle is currently in pre-release, meaning features are subject to change
     * Both sabers are blue, and can turn red by holding the triggers.
     * [OTF] Map Colours are red/blue randomized, forcing you to get crafty!
     * You can technically hit any block with any saber, but it requires some quick thinking!
+    
   * Pentachrome Toggle  
     * Difficulty : ★★★★★☆☆☆☆☆
     * Blue and Red sabers will change to Green and Magenta when holding the triggers!
     * [OTF] Map Colours are base/alt randomized, swapping out blue/red for green/magenta, and some grey!
     * [Example : Always Pentachrome Toggle](https://www.youtube.com/watch?v=cQ_qnVOb8B4)
+    
   * Pentachrome Maul  
     * Difficulty : ★★★★★★☆☆☆☆
     * Blue and Red sabers have Green and Magenta sabers coming the other side!
     * [OTF] Map Colours are base/alt randomized, swapping out blue/red for green/magenta, and some grey!
     * [Example : TTFAF No Arrows Pentachrome Maul](https://www.youtube.com/watch?v=h0llELO-erw)
+    
   * Forced Single Saber  
     * Difficulty : ★★★☆☆☆☆☆☆☆
     * [OTF] Play any map with one saber!
     * [Example : Gangnam Style Forced Single Saber](https://www.youtube.com/watch?v=dQcIJ_nRhDQ)
+    
   * Single Saber ChromaToggle  
     * Difficulty : ★★★★☆☆☆☆☆☆
     * Single Saber, but with ChromaToggle flair!
     * [OTF] Play any map with one saber, and two colours!
+    
   * Double Maul  
     * Difficulty : ★★★★☆☆☆☆☆☆
     * Receive two darth maul sabers, one in each hand!
     * [Example : TTFAF No Arrows Double Darth Maul](https://www.youtube.com/watch?v=WB2s5mqe_1U)
+    
   * GreyToggle [NOT YET IMPLEMENTED] 
     * Difficulty : ???
     * Hitting a grey block will turn your saber grey
     * Hitting a coloured block with a grey saber will turn your saber to that colour
+    
   * Monochrome  
     * Difficulty : ★☆☆☆☆☆☆☆☆☆
     * All blocks can be hit by any saber
     * We need at least one gamemode that makes the game *easier*, right?
+    
   * Nightmare  
     * Difficulty : ★★★★★★★★★★
     * Extremely difficult gamemode designed to try to kill you
@@ -119,12 +127,12 @@ ChromaToggle is currently in pre-release, meaning features are subject to change
   * Create custom gamemodes via XML files!
     * Take any feature from the official gamemodes, and features not in any gamemodes, tweak, fuse, and abuse them, to create whatever you want!
   * Examples: 
-    * RakeSaber : [Video](https://www.youtube.com/watch?v=7zfpJ9sBh8o) [XML](https://i.imgur.com/s85Xa.png) 
-    * MiniSaber : [Video](https://www.youtube.com/watch?v=hhaXkiHBmqo) [XML](https://i.imgur.com/s85Xa.png) 
-    * WumboSaber : [Video](https://www.youtube.com/watch?v=8Un25GHiDsE) [XML](https://i.imgur.com/s85Xa.png) 
-    * PancakeSaber : [Video](https://www.youtube.com/watch?v=e00AEujraC0) [XML](https://i.imgur.com/s85Xa.png) 
-    * Powerups : [Video](https://www.youtube.com/watch?v=V97aXszQjeM) [XML](https://i.imgur.com/s85Xa.png) 
-    * BoxSaber : [Video](https://i.imgur.com/s85Xa.png) [XML](https://i.imgur.com/s85Xa.png) 
+    * RakeSaber : [Video](https://www.youtube.com/watch?v=7zfpJ9sBh8o) : [XML](https://i.imgur.com/s85Xa.png) 
+    * MiniSaber : [Video](https://www.youtube.com/watch?v=hhaXkiHBmqo) : [XML](https://i.imgur.com/s85Xa.png) 
+    * WumboSaber : [Video](https://www.youtube.com/watch?v=8Un25GHiDsE) : [XML](https://i.imgur.com/s85Xa.png) 
+    * PancakeSaber : [Video](https://www.youtube.com/watch?v=e00AEujraC0) : [XML](https://i.imgur.com/s85Xa.png) 
+    * Powerups : [Video](https://www.youtube.com/watch?v=V97aXszQjeM) : [XML](https://i.imgur.com/s85Xa.png) 
+    * BoxSaber : [Video](https://i.imgur.com/s85Xa.png) : [XML](https://i.imgur.com/s85Xa.png) 
       
   
 ## Lighting
