@@ -22,10 +22,8 @@ For a full description of ChromaToggle, view the [What Is ChromaToggle?](https:/
 We hope you enjoy Hyperchroma-induced Synthesia!  
 
 # Links
-**[![JOIN THE DISCORD](https://i.imgur.com/wJojyxW.png)](https://discord.gg/BBntx2e)**  
-**[![What Is ChromaToggle?](https://i.imgur.com/TKYOIyc.png)](https://github.com/BinaryElement/ChromaToggle/blob/master/About.md)**  
-**[![~~How Do I make Custom Gamemodes?~~ Guide Not Made Yet Lol](https://i.imgur.com/4KsXuOX.png)](https://github.com/BinaryElement/ChromaToggle/edit/master/CustomGameModes.md)**  
-**[![I need help with the config!](https://i.imgur.com/GwLhcML.png)](https://github.com/BinaryElement/ChromaToggle/edit/master/UserPrefs.md)**  
+**[![JOIN THE DISCORD](https://i.imgur.com/wJojyxW.png)](https://discord.gg/BBntx2e)**  **[![What Is ChromaToggle?](https://i.imgur.com/TKYOIyc.png)](https://github.com/BinaryElement/ChromaToggle/blob/master/About.md)**  
+**[![~~How Do I make Custom Gamemodes?~~ Guide Not Made Yet Lol](https://i.imgur.com/4KsXuOX.png)](https://github.com/BinaryElement/ChromaToggle/edit/master/CustomGameModes.md)**  **[![I need help with the config!](https://i.imgur.com/GwLhcML.png)](https://github.com/BinaryElement/ChromaToggle/edit/master/UserPrefs.md)**  
 
 # Compatibility
 ChromaToggle is not compatible with the following plugins:
