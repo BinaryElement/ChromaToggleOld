@@ -3,6 +3,9 @@
 # Powerups
 ![PowerupsExample](https://i.imgur.com/BLOfCZ4.png)
 
+**Features shared by all powerups:**
+* Nothing yet.
+
 ## NoteOverridePowerup
 Causes all notes spawned within the next **[Duration]** seconds to be a certain type
 * NoteType
