@@ -33,7 +33,7 @@ ChromaToggle is not compatible with the following plugins:
 * DarthMaul - ChromaToggle can give you TWO darth mauls!
   * DarthMaul is technically compatible but it will make your gameplay options menu weird
 
-[Download it from the releases page.](https://github.com/BinaryElement/ChromaToggle/releases)
+[![Download it from the releases page.](https://i.imgur.com/mOZWjh7.png)](https://github.com/BinaryElement/ChromaToggle/releases)
 
 **Active Leaderboards:**
 * Forced Single Saber
