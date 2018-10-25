@@ -1,4 +1,4 @@
-[![LaLaLa](https://i.imgur.com/txIwYfH.png)](https://streamable.com/7ojl1)
+[![LaLaLa](https://i.imgur.com/mIrrf39.png)](https://streamable.com/7ojl1)
 
 **[Return to Readme](https://github.com/BinaryElement/ChromaToggle/blob/master/README.md)**
 
