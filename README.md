@@ -22,7 +22,7 @@ For a full description of ChromaToggle, view the [What Is ChromaToggle?](https:/
 We hope you enjoy Hyperchroma-induced Synthesia!  
 
 # Links
-**[JOIN THE DISCORD](https://discord.gg/BBntx2e)**
+**[JOIN THE DISCORD](https://discord.gg/BBntx2e)**  
 **[What Is ChromaToggle?](https://github.com/BinaryElement/ChromaToggle/blob/master/About.md)**  
 **[~~How Do I make Custom Gamemodes?~~ Guide Not Made Yet Lol](https://github.com/BinaryElement/ChromaToggle/edit/master/CustomGameModes.md)**  
 **[I need help with the config!](https://github.com/BinaryElement/ChromaToggle/edit/master/UserPrefs.md)**  
