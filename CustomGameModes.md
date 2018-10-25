@@ -161,6 +161,8 @@ Below is the list of possible settings for game modes:
 ![Powerups Section](https://i.imgur.com/uLnySCE.png)
 * PowerupsEnabled
   * Required for powerups (duh)
+* HidePowerupNames
+  * If true, the player will have no idea what powerup they have
 * ChargePowerSpark
   * Charge gained per second while clashing the sabers together
 * ChargeWallSpark
