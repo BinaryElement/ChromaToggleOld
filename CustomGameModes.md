@@ -2,6 +2,11 @@
 
 # Custom Game Modes
 
-It's a thing that exists!
+Custom Game Modes can be placed in the **UserData/ChromaToggle/CustomGamemodes** folder.  
+Custom modes are composed of XML files, with a plethora of options to tweak to your hearts content.
 
-A guide will be written here soon...
+It's recommended to start with an existing custom gamemode file to alter.  Copies of the official gamemodes (including default) come with ChromaToggle, but you can also [download the default gamemode here](https://discordapp.com/channels/488923582370545664/502961900846579732/504855424059572236).
+
+Below is the list of possible settings for game modes:
+
+[![Info Section](https://i.imgur.com/fDFglXA.png)]
