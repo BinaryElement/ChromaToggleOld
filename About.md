@@ -82,6 +82,7 @@ ChromaToggle is currently in pre-release, meaning features are subject to change
     
   * Pentachrome Toggle  
     * Difficulty : ★★★★★☆☆☆☆☆
+    * Leaderboard : **ENABLED**
     * Blue and Red sabers will change to Green and Magenta when holding the triggers!
     * [OTF] Map Colours are base/alt randomized, swapping out blue/red for green/magenta, and some grey!
     * [Example : Always Pentachrome Toggle](https://www.youtube.com/watch?v=cQ_qnVOb8B4)
@@ -94,6 +95,7 @@ ChromaToggle is currently in pre-release, meaning features are subject to change
     
   * Forced Single Saber  
     * Difficulty : ★★★☆☆☆☆☆☆☆
+    * Leaderboard : **ENABLED**
     * [OTF] Play any map with one saber!
     * [Example : Gangnam Style Forced Single Saber](https://www.youtube.com/watch?v=dQcIJ_nRhDQ)
     
