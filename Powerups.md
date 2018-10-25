@@ -4,7 +4,8 @@
 ![PowerupsExample](https://i.imgur.com/NIkDFq8.png)
 
 **Features shared by all powerups:**
-* Nothing yet.
+* DisplayName
+  * The name shown to the player
 
 ## NoteOverridePowerup
 Causes all notes spawned within the next **[Duration]** seconds to be a certain type
@@ -35,6 +36,10 @@ Has multiple uses.
 * InitialUses
   * How many uses the player is granted.
   * Use a whole number.
+* AudioFile
+  * The audio file used for the nuke's sound effect
+* AudioDuck
+  * If true, the nuke will silence the song briefly
   
 ## ShieldPowerup
 *ShieldPowerup is the internal ID, the actual powerup is known as God Saber*
