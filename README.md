@@ -1,8 +1,6 @@
 # ChromaToggle v0.6
 ### "The Customization Sensation"
 
-[![LaLaLa](https://i.imgur.com/mIrrf39.png)](https://streamable.com/7ojl1)
-
 Here at ChromaToggle® we value your eye-cone-thingies.  
 A recent trend of duochromitis has plagued the VR community these last few months, and we've decided to balance the playing field.  
 
@@ -14,6 +12,8 @@ ChromaToggle™ also boasts the most power in colour customization you've ever s
 
 Or, if you're the sort to prefer hand crafted perfection (hence Beat Saber), mappers can place blocks and lights of all the above types!  But that's not all, ChromaToggle®™© even offers **full RGB control* of lightmaps!  Give *Liquid's* example map, *Chromakey Lightshow* a play and see how much more *colourful* your world can be!  
 (Play on Easy difficulty for just a lightshow, Expert for Pentachrome Toggle mode)  
+
+[![LaLaLa](https://i.imgur.com/mIrrf39.png)](https://streamable.com/7ojl1)
 
 Finally, if you're more averse to colours, we bring you *Nightmare Mode* for halloween!  It's a dark cold world out there, and it wants to kill you, so maybe you should stay in here, where it's colourful...
 
