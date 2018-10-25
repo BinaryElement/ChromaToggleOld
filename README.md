@@ -19,8 +19,7 @@ Finally, if you're more averse to colours, we bring you *Nightmare Mode* for hal
 
 For a full description of ChromaToggle, view the [What Is ChromaToggle?](https://github.com/BinaryElement/ChromaToggle/blob/master/About.md) page!
 
-I hope you enjoy Hyperchroma-induced Synthesia!  
-**WELCOME, TO ~~OSU!~~ COLOUR!** (with a u, u h\*ckin monster)
+We hope you enjoy Hyperchroma-induced Synthesia!  
 
 **[JOIN THE DISCORD](https://discord.gg/BBntx2e)**
 
