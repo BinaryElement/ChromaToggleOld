@@ -9,4 +9,4 @@ It's recommended to start with an existing custom gamemode file to alter.  Copie
 
 Below is the list of possible settings for game modes:
 
-[![Info Section](https://i.imgur.com/fDFglXA.png)]
+![Info Section](https://i.imgur.com/fDFglXA.png)
