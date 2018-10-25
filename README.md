@@ -26,7 +26,7 @@ I hope you enjoy Hyperchroma-induced Synthesia!
 
 # Links
 **[What Is ChromaToggle?](https://github.com/BinaryElement/ChromaToggle/blob/master/About.md)**
-**[How Do I make Custom Gamemodes?](https://github.com/BinaryElement/ChromaToggle/edit/master/CustomGameModes.md)**
+**[~~How Do I make Custom Gamemodes?~~ Guide Not Made Yet Lol](https://github.com/BinaryElement/ChromaToggle/edit/master/CustomGameModes.md)**
 **[I need help with the config!](https://github.com/BinaryElement/ChromaToggle/edit/master/UserPrefs.md)**
 **[How Do I Enable Safety Warning Required Features?](https://github.com/BinaryElement/ChromaToggle/blob/master/UserPrefs.md#safety-warning)**
 
