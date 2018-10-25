@@ -1,7 +1,7 @@
 **[![Return to Readme](https://i.imgur.com/SkABia5.png)](https://github.com/BinaryElement/ChromaToggle/blob/master/README.md)**  **[![JOIN THE DISCORD](https://i.imgur.com/j525zt0.png)](https://discord.gg/BBntx2e)**
 
 # Powerups
-![PowerupsExample](https://i.imgur.com/BLOfCZ4.png)
+![PowerupsExample](https://i.imgur.com/ns7b4oT.png)
 
 **Features shared by all powerups:**
 * Nothing yet.
