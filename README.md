@@ -27,11 +27,15 @@ We hope you enjoy Hyperchroma-induced Synthesia!
 
 # Compatibility
 ChromaToggle is not compatible with the following plugins:
-* Hidden (HD)
-* Custom Colours - ChromaToggle does everything CC does and better anyway
-* SimplestRainbowMod - Again, ChromaToggle can do everything it does anyway
+* Custom Colours 
+  * Soft Compatibility Issue - game still works, but doesn't colourize as intended.
+  * ChromaToggle does everything CC does and better anyway
+* SimplestRainbowMod 
+  * Soft Compatibility Issue - game still works, but doesn't colourize as intended.
+  * Again, ChromaToggle can do everything it does anyway
 * DarthMaul - ChromaToggle can give you TWO darth mauls!
-  * DarthMaul is technically compatible but it will make your gameplay options menu weird
+  * Moderate Compatibility Issue - game still works, but the side menu (with no fail option etc) breaks.
+  * DarthMaul plugin doesn't use the most recent GameplayOptionsUI API
 
 [![Download it from the releases page.](https://i.imgur.com/mOZWjh7.png)](https://github.com/BinaryElement/ChromaToggle/releases)
 
