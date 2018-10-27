@@ -29,11 +29,11 @@ We hope you enjoy Hyperchroma-induced Synthesia!
 ChromaToggle is not compatible with the following plugins:
 * Custom Colours 
   * Soft Compatibility Issue - game still works, but doesn't colourize as intended.
-  * ChromaToggle does everything CC does and better anyway
+  * ChromaToggle does everything CC does [and better anyway](https://i.imgur.com/ToX3nG9.png).
 * SimplestRainbowMod 
   * Soft Compatibility Issue - game still works, but doesn't colourize as intended.
-  * ChromaToggle has a better version of rainbow mode anyway
-    * Uses palettes to stay true to cold/warm, so you can still identify sides.
+  * ChromaToggle has a [better version of rainbow mode anyway](https://i.imgur.com/DKMu4cO.png).
+    * Warm/Cold uses palettes to stay true to cold/warm, so you can still identify sides.
     * Can apply rainbowism to lights, sabers, blocks, and barriers.
 * DarthMaul - ChromaToggle can give you TWO darth mauls!
   * Moderate Compatibility Issue - game still works, but the side menu (with no fail option etc) breaks.
