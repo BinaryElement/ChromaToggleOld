@@ -93,7 +93,8 @@ Also, Nightmare is EXTREMELY HARD.  If you're an Expert+ player, *expect to die 
 
 **Insanity** - If you don't have good VR legs, this mode **will** make you vomit.  If you have not played games with smooth locomotion, such as VRChat or StandOut, do NOT try this mode.  It is extremely disorienting.  Additionally, if your playspace is small, you have objects near you, TO INCLUDE BEHIND YOU, do NOT try this mode!  
 
-**Head Sabers** - Also known as Unicorn Mode.  This one should be obvious.  YOU MAY BREAK YOUR NECK.  DO NOT BREAK YOUR NECK.  I AM NOT LIABLE FOR NECK RELATED INJURIES.  In fact, I'm not liable for ANY injuries!
+**Head Sabers** - Also known as Unicorn Mode.  This one should be obvious.  YOU MAY BREAK YOUR NECK.  DO NOT BREAK YOUR NECK.  I AM NOT LIABLE FOR NECK RELATED INJURIES.  In fact, I'm not liable for ANY injuries!  
+Edit: Seriously though, people, head sabers can hurt you.  I played three songs with this thing and my back has been stiff for 24 hours now.  Don't be as dumb as I am.
 
 There.  You have now read the safety warnings.  I hope you're happy.  You enable the modes outlined above, create a *Whiplash=* option in the ModPrefs.ini file, under the [ChromaToggle] section, and set the right side of the equals sign to *DoNotWant*.  If you are having difficulty doing this, *DO NOT ASK FOR HELP DOING SO, BECAUSE IF YOU CANNOT BE TRUSTED TO ADD A LINE TO THE PREFERENCE FILE, YOU CANNOT BE TRUSTED WITH YOUR OWN HEALTH*.
 I swear to god if you just added that option without reading it, the value, or the safety warning, I will come to your house and I will stab you in technicolour.   
