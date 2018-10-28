@@ -1,6 +1,6 @@
-[![LaLaLa](https://i.imgur.com/mIrrf39.png)](https://streamable.com/7ojl1)
-
 **[![Return to Readme](https://i.imgur.com/SkABia5.png)](https://github.com/BinaryElement/ChromaToggle/blob/master/README.md)**  **[![JOIN THE DISCORD](https://i.imgur.com/j525zt0.png)](https://discord.gg/BBntx2e)**
+
+[![LaLaLa](https://i.imgur.com/mIrrf39.png)](https://streamable.com/7ojl1)
 
 # About
 **ChromaToggle** massive Beat Saber mod offering a plethora of new options, features, and gamemodes!  
