@@ -129,12 +129,14 @@ ChromaToggle is currently in pre-release, meaning features are subject to change
   * Create custom gamemodes via XML files!
     * Take any feature from the official gamemodes, and features not in any gamemodes, tweak, fuse, and abuse them, to create whatever you want!
   * Examples: 
-    * RakeSaber : [Video](https://www.youtube.com/watch?v=7zfpJ9sBh8o) : [XML](https://i.imgur.com/s85Xa.png) 
-    * MiniSaber : [Video](https://www.youtube.com/watch?v=hhaXkiHBmqo) : [XML](https://i.imgur.com/s85Xa.png) 
-    * WumboSaber : [Video](https://www.youtube.com/watch?v=8Un25GHiDsE) : [XML](https://i.imgur.com/s85Xa.png) 
-    * PancakeSaber : [Video](https://www.youtube.com/watch?v=e00AEujraC0) : [XML](https://i.imgur.com/s85Xa.png) 
-    * Powerups : [Video](https://www.youtube.com/watch?v=V97aXszQjeM) : [XML](https://i.imgur.com/s85Xa.png) 
-    * BoxSaber : [Video](https://i.imgur.com/s85Xa.png) : [XML](https://i.imgur.com/s85Xa.png) 
+    * Unicorn : [Video](https://www.youtube.com/watch?v=mD8zAizINHo)
+    * LibertyCorn : [Video](https://www.youtube.com/watch?v=WC5qcvkw1HI)
+    * RakeSaber : [Video](https://www.youtube.com/watch?v=7zfpJ9sBh8o)
+    * MiniSaber : [Video](https://www.youtube.com/watch?v=hhaXkiHBmqo)
+    * WumboSaber : [Video](https://www.youtube.com/watch?v=8Un25GHiDsE)
+    * PancakeSaber : [Video](https://www.youtube.com/watch?v=e00AEujraC0)
+    * Powerups : [Video](https://www.youtube.com/watch?v=V97aXszQjeM)
+    * BoxSaber : [Video](https://i.imgur.com/s85Xa.png)
       
   
 ## Lighting
