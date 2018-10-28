@@ -51,6 +51,8 @@ ChromaToggle is currently in pre-release, meaning features are subject to change
     * Pentachrome Lights
   * Independent control of other colour features
     * Laser pointer
+    * Barriers
+    * BEAT SABER neon sign
   * Mappers can specify lighting colours too!
   * Technicolour
     * Controlled version of Rainbow mode
