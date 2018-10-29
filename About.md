@@ -105,7 +105,7 @@ ChromaToggle is currently in pre-release, meaning features are subject to change
     * [OTF] Play any map with one saber, and two colours!
     
   * Double Maul  
-    * Difficulty : ★★★★☆☆☆☆☆☆
+    * Difficulty : ★★★★★★★☆☆☆
     * Receive two darth maul sabers, one in each hand!
     * [Example : TTFAF No Arrows Double Darth Maul](https://www.youtube.com/watch?v=WB2s5mqe_1U)
     
