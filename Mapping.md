@@ -16,6 +16,9 @@ Colour Events are the meat and bones of ChromaToggle.  These events store two co
 
 When used without a data event, they will recolour all future lights on that track.  For example, if you place a "Alternate Lights" custom event, future blue events will be green, and future red events will be magenta.
 
+Colour Events store two colours, an A and a B.
+When used on their own, A replaces the blue lights, and B replaces the red lights.
+
 ### Colour Event Types
 * RGB
   * ID: >2000000000
