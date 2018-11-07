@@ -75,8 +75,11 @@ B.r = 1, B.g = 0.5, B.b = 0
   * ID: 1950000003
   * A = Rotates the player around a Vector3 (x, y, z)
     * x = A.r * 360°
+      * x rotation is pitching forward/back, like a plane taking off.
     * y = A.g * 360°
+      * y rotation is spinning on the spot, like a plane taxiing around a bend on the ground.
     * z = A.b * 360°
+      * z rotation is banking left/right, like a plane doing a corkscrew roll.
 * Ambient Light Event
   * ID: 1950000004
   * A = Immediately changes the ambient lights to colour A
