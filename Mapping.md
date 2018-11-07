@@ -9,7 +9,7 @@ You can get it [here](https://github.com/squeaksies/MediocreMapper).
 ChromaToggle is capable of enabling more lighting options, as well as doing other crazy lighting stuff.
 Note that specially-coloured lighting is available no matter what gamemode, and specially-coloured lightmaps can be designed to work well with AND without ChromaToggle installed.
 
-Note that currently **only the RGB event is enabled in MediocreMapper**.  The below info is *technobabble* - in other words, if you're interested in the JSON event data, this is for you.  If you want to just use the mapper to place stuff, use MediocreMapper's guide!
+Note that currently **only the RGB event is enabled in MediocreMapper**.  The below info is *technobabble* - in other words, if you're interested in other features and/or JSON event data, this is for you.  If you want to just use the mapper to place stuff, use MediocreMapper's guide!
 
 ## Colour Events
 Colour Events are the meat and bones of ChromaToggle.  These events store two colours (in the case of RGB events, it stores two copies of the same colour).  On their own, they manipulate the track lighting.  However, they are also used to store variables for "Data Events".
