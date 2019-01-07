@@ -42,7 +42,7 @@ When used on their own, A replaces the blue lights, and B replaces the red light
   * A = Random Colour from player's Technicolour A palette
   * B = Random Colour from player's Technicolour B palette
 * Pure Random
-  * ID: 1900000004
+  * ID: 1900000005
   * A = Purely random colour.
   * B = Purely random colour.
 
