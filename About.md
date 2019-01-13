@@ -1,5 +1,8 @@
 **[![Return to Readme](https://i.imgur.com/SkABia5.png)](https://github.com/BinaryElement/ChromaToggle/blob/master/README.md)**  **[![JOIN THE DISCORD](https://i.imgur.com/j525zt0.png)](https://discord.gg/BBntx2e)**
 
+# IMPORTANT: 
+**ChromaToggle is not publicly updated to Beat Saber 0.12.  You may get the most recent CBT - Closed Beta Testing - release (ChromaToggle 0.7.1) for Beat Saber 0.11.2 in the discord, if you wish to downgrade to the last version to play it.  However, there is a currently-being-tested CBT release for 0.12 - barring any major issues, this version should be public within a few days to a week.  The easiest way to keep track of ChromaToggle is in the discord (link above).  If you wish to apply for CBT, you must be a part of the Discord.**
+
 [![LaLaLa](https://i.imgur.com/mIrrf39.png)](https://streamable.com/7ojl1)
 
 # About
