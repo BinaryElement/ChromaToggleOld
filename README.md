@@ -37,8 +37,7 @@ ChromaToggle is not compatible with the following plugins:
     * Can apply rainbowism to lights, sabers, blocks, and barriers.
     * Technicolour settings are now found in the Player Settings tab of the menu to the left of the song list.
 * DarthMaul - ChromaToggle can give you TWO darth mauls!
-  * Moderate Compatibility Issue - game still works, but the side menu (with no fail option etc) breaks.
-  * DarthMaul plugin doesn't use the most recent GameplayOptionsUI API
+  * Moderate Compatibility Issue - Game will still run, but only if Darth Maul is disabled.  Therefore, there's no reason to be running Darth Maul.
 
 [![Download it from the releases page.](https://i.imgur.com/mOZWjh7.png)](https://github.com/BinaryElement/ChromaToggle/releases)
 
