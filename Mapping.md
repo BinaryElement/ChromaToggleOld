@@ -97,6 +97,7 @@ B.r = 1, B.g = 0.5, B.b = 0
 ### Data Event Types
 * Note Scale Event
   * ID: 1950000001
+  * Applies to all notes placed after this event in the editor.
   * A = Sets all future spawned notes to (A.r * 1.5) * 100%
     * Minimum value of 0%
     * Maximum value of 150%
@@ -121,7 +122,7 @@ B.r = 1, B.g = 0.5, B.b = 0
   * A = Immediately changes the ambient lights to colour A
 * Barrier Colour Event
   * ID: 1950000005
-  * A = Immediately changes all future Barrier spawns to colour A
+  * All barriers spawned after the position of this event will be colour A.
 * Ring Speed Multiplier
   * ID: 1950000006
   * Applies to all ring rotate events in the future, including Chroma ring spin events.
