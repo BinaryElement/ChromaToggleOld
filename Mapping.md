@@ -129,3 +129,16 @@ B.r = 1, B.g = 0.5, B.b = 0
     * A.b = 0-10,000%
     * Default value of 100% (A.r = 255, A.g = 0, A.b = 0)
     * Maximum Combined Value of 11,600%
+* Laser Style Event
+  * ID: 1950000009
+  * Allows you to change mechanics of future laser events.  Each event can change one setting.  You may need to use multiple of these for a desired effect.
+    * Laser Position Reset Effect
+      * When laser speed is changed, lasers will have their position reset (if zero) or randomized.  Disabling this will prevent these actions, allowing you to freeze lasers in place, or have less jarring speed changes.
+      * A.r = 0 - Enabled (default)
+      * A.r = 1 - Disabled
+    * Laser Spin Direction
+      * When lasers begin spinning, or change spin speed, they pick "left or right" randomly.  CT/CL allows you to define a direction.
+      * This is actually a waste of effort as the player will **never** notice this.
+      * A.r = 2 - Random (default)
+      * A.r = 3 - Left
+      * A.r = 4 - Right
