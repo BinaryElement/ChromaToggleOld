@@ -103,7 +103,7 @@ B.r = 1, B.g = 0.5, B.b = 0
 * Ring Speed Multiplier
   * ID: 1950000006
   * Applies to all ring rotate events in the future, including Chroma ring spin events.
-  * A = Dictates the speed multiplier of the rings
+  * A.r = Dictates the [speed multiplier of the rings](https://streamable.com/fxlse)
     * Minimum value of 5%
       * 0% will revert to 100%
     * Maximum value of 1500%
@@ -111,7 +111,14 @@ B.r = 1, B.g = 0.5, B.b = 0
 * Ring Propagation Multiplier
   * ID: 1950000007
   * Applies to all ring rotate events in the future, including Chroma ring spin events.
-  * A = Dictates the rate at which rings lose their momentum
-    * Minimum value of 0% (infinite spinning???)
+  * A.r = Dictates the rate at which rings behind the first one have physics applied to them.  High value makes all rings move simultaneously, low value gives them [significant delay](https://streamable.com/vsdr9)
+    * Minimum value of 0% (???)
     * Maximum value of 750%
     * Default value of 100% (RGB 34)
+* Ring Step Multiplier
+  * ID: 1950000008
+  * Applies to all ring rotate events in the future, including Chroma ring spin events.
+  * A.r = Multiplies the "step" value of the rings.  I'm honestly not sure what effect this has.
+    * Minimum value of 0%
+    * Maximum value of 1500%
+    * Default value of 100% (RGB 17)
