@@ -70,7 +70,7 @@ For example, if you make an RGB event of the colour (255,128,0), it has these va
 A.r = 1, A.g = 0.5, A.b = 0
 B.r = 1, B.g = 0.5, B.b = 0
 
-**You can also use [this calculator](https://www.desmos.com/calculator/v7pbsblklv) to find the values you desire.**
+**You can also use [this calculator](https://www.desmos.com/calculator/xmputmlkqu) to find the values you desire.**
 
 ### Data Event Types
 * Note Scale Event
@@ -107,3 +107,10 @@ B.r = 1, B.g = 0.5, B.b = 0
     * Minimum value of 0% (why?)
     * Maximum value of 1500%
     * Default value of 100% (RGB 17)
+* Ring Propagation Multiplier
+  * ID: 1950000007
+  * Applies to all ring rotate events in the future, including Chroma ring spin events.
+  * A = Dictates the rate at which rings lose their momentum
+    * Minimum value of 0% (infinite spinning???)
+    * Maximum value of 750%
+    * Default value of 100% (RGB 34)
