@@ -92,7 +92,7 @@ For example, if you make an RGB event of the colour (255,128,0), it has these va
 A.r = 1, A.g = 0.5, A.b = 0
 B.r = 1, B.g = 0.5, B.b = 0
 
-**You can also use [this calculator](https://www.desmos.com/calculator/puv1ofg088) to find the values you desire.**
+**You can also use [this calculator](https://www.desmos.com/calculator/vok01bilbr) to find the values you desire.**
 
 ### Data Event Types
 * Note Scale Event
@@ -150,3 +150,9 @@ B.r = 1, B.g = 0.5, B.b = 0
     * A.b = 0-10,000%
     * Default value of 100% (A.r = 255, A.g = 0, A.b = 0)
     * Maximum Combined Value of 11,600%
+* Chance Event
+  * ID: 1950000009
+  * When placed before another event, this causes said event to have a percentage chance of functioning.  If this chance fails, that event will not trigger.
+    * Chance = A.r * A.g * A.b
+      * 1 * 1 * 1 = 100% maximum
+      * 0 * 0 * 0 = 0% minimum
