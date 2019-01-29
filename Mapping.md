@@ -152,7 +152,7 @@ B.r = 1, B.g = 0.5, B.b = 0
     * Maximum Combined Value of 11,600%
 * Chance Event
   * ID: 1950000009
-  * When placed before another event, this causes said event to have a percentage chance of functioning.  If this chance fails, that event will not trigger.
+  * This event has a set chance to "succeed".  If it does so, the map will process as normal.  If it fails, no lighting events on the same track will be processed until a new Chance Event is called.  This allows you to block off one or more lighting events on a percent chance.
     * Chance = A.r * A.g * A.b
       * 1 * 1 * 1 = 100% maximum
       * 0 * 0 * 0 = 0% minimum
