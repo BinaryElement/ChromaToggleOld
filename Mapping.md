@@ -70,7 +70,7 @@ For example, if you make an RGB event of the colour (255,128,0), it has these va
 A.r = 1, A.g = 0.5, A.b = 0
 B.r = 1, B.g = 0.5, B.b = 0
 
-**You can also use [this calculator](https://www.desmos.com/calculator/hdwggxd9qg) to find the values you desire.**
+**You can also use [this calculator](https://www.desmos.com/calculator/puv1ofg088) to find the values you desire.**
 
 ### Data Event Types
 * Note Scale Event
