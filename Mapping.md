@@ -70,7 +70,7 @@ For example, if you make an RGB event of the colour (255,128,0), it has these va
 A.r = 1, A.g = 0.5, A.b = 0
 B.r = 1, B.g = 0.5, B.b = 0
 
-**You can also use [this calculator](https://www.desmos.com/calculator/rfz629brb7) to find the values you desire.**
+**You can also use [this calculator](https://www.desmos.com/calculator/hdwggxd9qg) to find the values you desire.**
 
 ### Data Event Types
 * Note Scale Event
@@ -103,22 +103,24 @@ B.r = 1, B.g = 0.5, B.b = 0
 * Ring Speed Multiplier
   * ID: 1950000006
   * Applies to all ring rotate events in the future, including Chroma ring spin events.
-  * A.r = Dictates the [speed multiplier of the rings](https://streamable.com/fxlse)
-    * Minimum value of 5%
-      * 0% will revert to 100%
-    * Maximum value of 1500%
-    * Default value of 100% (RGB 17)
+  * Colour dictates the [speed multiplier of the rings](https://streamable.com/fxlse).  Colour percentages are added together.
+    * A.r = 0-100%
+    * A.g = 0-1,500%
+    * A.b = 0-10,000%
+    * Default value of 100% (A.r = 255, A.g = 0, A.b = 0)
 * Ring Propagation Multiplier
   * ID: 1950000007
   * Applies to all ring rotate events in the future, including Chroma ring spin events.
-  * A.r = Dictates the rate at which rings behind the first one have physics applied to them.  High value makes all rings move simultaneously, low value gives them [significant delay](https://streamable.com/vsdr9)
-    * Minimum value of 0% (???)
-    * Maximum value of 750%
-    * Default value of 100% (RGB 34)
+  * Colour dictates the rate at which rings behind the first one have physics applied to them.  High value makes all rings move simultaneously, low value gives them [significant delay](https://streamable.com/vsdr9)  Colour percentages are added together.
+    * A.r = 0-100%
+    * A.g = 0-1,500%
+    * A.b = 0-10,000%
+    * Default value of 100% (A.r = 255, A.g = 0, A.b = 0)
 * Ring Step Multiplier
   * ID: 1950000008
   * Applies to all ring rotate events in the future, including Chroma ring spin events.
-  * A.r = Multiplies the "step" value of the rings.  I'm honestly not sure what effect this has.
-    * Minimum value of 0%
-    * Maximum value of 1500%
-    * Default value of 100% (RGB 17)
+  * Colour multiplies the "step" value of the rings.  I'm honestly not sure what effect this has.  Colour percentages are added together.
+    * A.r = 0-100%
+    * A.g = 0-1,500%
+    * A.b = 0-10,000%
+    * Default value of 100% (A.r = 255, A.g = 0, A.b = 0)
