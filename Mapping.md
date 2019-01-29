@@ -104,7 +104,8 @@ B.r = 1, B.g = 0.5, B.b = 0
   * ID: 1950000006
   * Applies to all ring rotate events in the future, including Chroma ring spin events.
   * A = Dictates the speed multiplier of the rings
-    * Minimum value of 0% (why?)
+    * Minimum value of 5%
+      * 0% will revert to 100%
     * Maximum value of 1500%
     * Default value of 100% (RGB 17)
 * Ring Propagation Multiplier
