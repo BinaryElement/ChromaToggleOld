@@ -60,6 +60,26 @@ Simple events are various events that perform simple tasks on their own.  They m
   * ID: 1910000001
   * Can be placed anywhere
   * Rotates the rings clockwise only
+* Laser Controls
+  * Reset State
+    * Reset State Enabled (Default)
+      * ID: 1910000002
+      * When enabled, lasers will reset their position when set to speed zero, or randomize their position when changed to anything else.
+    * Reset State Disabled
+      * ID: 1910000003
+      * When disabled, laser position will remain over speed changes, resulting in smoother less jarring transitions, as well as allowing you to freeze the laser at any position.
+  * Spin Direction
+    * Random Spin Direction (Default)
+      * ID: 1910000004
+      * Lasers will pick a random direction to spin when speed is set above zero
+    * Inboard Spin Direction
+      * ID: 1910000005
+      * When lasers begin moving, [the higher half of the lasers will travel inboard](https://i.imgur.com/cPkjO8e.png).
+        * Left lasers will travel CW, right lasers will travel CCW
+    * Outboard Spin Direction
+      * ID: 1910000006
+      * When lasers begin moving, [the higher half of the lasers will travel outboard](https://i.imgur.com/NiaMT96.png).
+        * Left lasers will travel CCW, right lasers will travel CW
 
 
 ## Data Events
@@ -129,16 +149,3 @@ B.r = 1, B.g = 0.5, B.b = 0
     * A.b = 0-10,000%
     * Default value of 100% (A.r = 255, A.g = 0, A.b = 0)
     * Maximum Combined Value of 11,600%
-* Laser Style Event
-  * ID: 1950000009
-  * Allows you to change mechanics of future laser events.  Each event can change one setting.  You may need to use multiple of these for a desired effect.
-    * Laser Position Reset Effect
-      * When laser speed is changed, lasers will have their position reset (if zero) or randomized.  Disabling this will prevent these actions, allowing you to freeze lasers in place, or have less jarring speed changes.
-      * A.r = 0 - Enabled (default)
-      * A.r = 1 - Disabled
-    * Laser Spin Direction
-      * When lasers begin spinning, or change spin speed, they pick "left or right" randomly.  CT/CL allows you to define a direction.
-      * This is actually a waste of effort as the player will **never** notice this.
-      * A.r = 2 - Random (default)
-      * A.r = 3 - Left
-      * A.r = 4 - Right
