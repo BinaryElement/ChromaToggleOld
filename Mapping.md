@@ -108,6 +108,7 @@ B.r = 1, B.g = 0.5, B.b = 0
     * A.g = 0-1,500%
     * A.b = 0-10,000%
     * Default value of 100% (A.r = 255, A.g = 0, A.b = 0)
+    * Maximum Combined Value of 11,600%
 * Ring Propagation Multiplier
   * ID: 1950000007
   * Applies to all ring rotate events in the future, including Chroma ring spin events.
@@ -116,6 +117,7 @@ B.r = 1, B.g = 0.5, B.b = 0
     * A.g = 0-1,500%
     * A.b = 0-10,000%
     * Default value of 100% (A.r = 255, A.g = 0, A.b = 0)
+    * Maximum Combined Value of 11,600%
 * Ring Step Multiplier
   * ID: 1950000008
   * Applies to all ring rotate events in the future, including Chroma ring spin events.
@@ -124,3 +126,4 @@ B.r = 1, B.g = 0.5, B.b = 0
     * A.g = 0-1,500%
     * A.b = 0-10,000%
     * Default value of 100% (A.r = 255, A.g = 0, A.b = 0)
+    * Maximum Combined Value of 11,600%
