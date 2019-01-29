@@ -11,6 +11,8 @@ Note that specially-coloured lighting is available no matter what gamemode, and 
 
 Note that currently **only the RGB event is enabled in MediocreMapper**.  The below info is *technobabble* - in other words, if you're interested in other features and/or JSON event data, this is for you.  If you want to just use the mapper to place stuff, use MediocreMapper's guide!
 
+MediocreMapper does have a custom event ID field, which allows you to place most of these blocks in-editor, but it requires you to know the values and where to place them.
+
 ## Colour Events
 Colour Events are the meat and bones of ChromaToggle.  These events store two colours (in the case of RGB events, it stores two copies of the same colour).  On their own, they manipulate the track lighting.  However, they are also used to store variables for "Data Events".
 
