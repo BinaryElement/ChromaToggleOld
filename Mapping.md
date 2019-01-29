@@ -47,14 +47,16 @@ When used on their own, A replaces the blue lights, and B replaces the red light
   * B = Purely random colour.
   
 ## Simple Events
-Simple events are various events that perform simple tasks on their own.  They may require a specific lane, or the may be placeable anywhere, they simply use special values.
+Simple events are various events that perform simple tasks on their own.  They may require a specific lane, or the may be placeable anywhere, they simply use special IDs.
 
 ### Simple Event Types
 * Ring Rotate Left
   * ID: 1910000000
+  * Can be placed anywhere
   * Rotates the rings counter-clockwise only
 * Ring Rotate Right
   * ID: 1910000001
+  * Can be placed anywhere
   * Rotates the rings clockwise only
 
 
