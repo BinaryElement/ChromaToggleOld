@@ -1,3 +1,6 @@
+# IMPORTANT:
+**The mapping system is going to be overhauled with a much more powerful custom event system, and in the long run, a new mapper to handle placing them properly.**
+
 # MediocreMapper
 
 EditSaber, by Ikeiwa, has been modified and updated by squeksies to make **MediocreMapper**.  This is your primary method of mapping custom lights/notes.
