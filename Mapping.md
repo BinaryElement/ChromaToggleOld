@@ -1,6 +1,10 @@
 # IMPORTANT:
 **The mapping system is going to be overhauled with a much more powerful custom event system, and in the long run, a new mapper to handle placing them properly.**
 
+**What this means to you is these events will be obsolete, and no longer work, soon.  With the sole exception of RGB lighting - for backwards compatibility purposes, the current RGB system is not going away (but there will still be a better one alongside it).**
+
+**In other words: ONLY USE RGB, DO NOT USE THE OTHER EVENTS**
+
 # MediocreMapper
 
 EditSaber, by Ikeiwa, has been modified and updated by squeksies to make **MediocreMapper**.  This is your primary method of mapping custom lights/notes.
