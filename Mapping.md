@@ -5,6 +5,8 @@
 
 **In other words: ONLY USE RGB, DO NOT USE THE OTHER EVENTS**
 
+With Chroma 0.1.1 you can choose to enable legacy lighting events, letting you experiment with all these values.  But the legacy option will eventually go away, and when that happens these events will no longer function (again, RGB however will always work)
+
 # MediocreMapper
 
 EditSaber, by Ikeiwa, has been modified and updated by squeksies to make **MediocreMapper**.  This is your primary method of mapping custom lights/notes.
