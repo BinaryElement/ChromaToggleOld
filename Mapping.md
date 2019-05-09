@@ -38,8 +38,8 @@ When used on their own, A replaces the blue lights, and B replaces the red light
   * B = Copy of A
 * Reset
   * ID: 1900000001
-  * A = Player Set Light A (Default blue)
-  * B = Player Set Light B (Default red)
+  * A = Player Set Light A (Default red)
+  * B = Player Set Light B (Default blue)
 * Alternate Lights
   * ID: 1900000002
   * A = Player Set Alt Light A (Default green)
